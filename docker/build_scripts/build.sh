@@ -104,7 +104,7 @@ libtool --version
 build_libxcrypt "$LIBXCRYPT_DOWNLOAD_URL" "$LIBXCRYPT_VERSION" "$LIBXCRYPT_HASH"
 
 # Delete PERL now that OpenSSL and libxcrypt are built
-rm -rf /opt/perl
+# rm -rf /opt/perl
 
 # Install a git we link against OpenSSL so that we can use TLS 1.2
 build_git $GIT_ROOT $GIT_HASH
@@ -118,7 +118,9 @@ cd $SQLITE_AUTOCONF_ROOT
 do_standard_install
 cd ..
 rm -rf $SQLITE_AUTOCONF_ROOT*
-rm /usr/local/lib/libsqlite3.a
+# rm /usr/local/lib/libsqlite3.a
+
+exit 0
 
 # Compile the latest Python releases.
 # (In order to have a proper SSL module, Python is compiled

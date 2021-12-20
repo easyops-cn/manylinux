@@ -45,3 +45,9 @@ CACERT_ROOT=cacert
 CACERT_EXTENSION=.pem
 CACERT_DOWNLOAD_URL=https://raw.githubusercontent.com/certifi/python-certifi/2021.05.30/certifi
 CACERT_HASH=de2fa17c4d8ae68dc204a1b6b58b7a7a12569367cfeb8a3a4e1f377c73e83e9e
+
+
+PERL_DOWNLOAD_URL=https://mirrors.aliyun.com/CPAN/src/5.0
+AUTOCONF_DOWNLOAD_URL=https://mirrors.aliyun.com/gnu/autoconf
+AUTOMAKE_DOWNLOAD_URL=https://mirrors.aliyun.com/gnu/automake
+LIBTOOL_DOWNLOAD_URL=https://mirrors.aliyun.com/gnu/libtool
